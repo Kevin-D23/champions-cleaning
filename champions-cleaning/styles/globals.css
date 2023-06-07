@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --accent-600: #e36414;
+  --accent-500: #ff7b00;
+  --accent-400: #ff8800;
+  --accent-300: #ff9500;
+  --accent-200: #FFC300;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
