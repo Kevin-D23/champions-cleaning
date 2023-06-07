@@ -2,6 +2,6 @@ import styles from '../styles/Logo.module.css'
 
 export default function Logo() {
     return(
-        <div className={styles.Logo}>CHAMPIONS</div>
+        <div className={styles.Logo}>C</div>
     )
 }

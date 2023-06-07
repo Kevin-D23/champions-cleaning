@@ -1,0 +1,31 @@
+.NavbarContainer {
+    background-color: white;
+    display: flex;
+    height: 5.25rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8rem;
+    color:#444444;
+    font-weight: 600;
+}
+
+.NavbarButtons {
+    display: flex;
+    align-items: center;
+    gap: 2.25rem;
+}
+
+.CallButton a {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+}
+
+.CallButton h3 {
+    color: #777777;
+}
+
+.CallButton h2 {
+    color: var(--accent-300);
+}
+
