@@ -1,6 +1,7 @@
 import styles from "../styles/Home.module.css";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [popup, setPopup] = useState(true);
@@ -20,6 +21,7 @@ export default function Home() {
         </div>
       )}
         <Navbar />
+        <Footer />
     </section>
   );
 }
