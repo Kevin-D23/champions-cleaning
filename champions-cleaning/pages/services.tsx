@@ -1,6 +1,7 @@
 import styles from "../styles/Services.module.css";
 import Navbar from "../components/Navbar";
 import { Icon } from "@iconify/react";
+import Footer from "../components/Footer";
 
 export default function Services() {
   type serviceFormat = {
@@ -98,8 +99,11 @@ export default function Services() {
     <section className={styles.ServicesPageContainer}>
       <Navbar />
       {services.map((service) => {
-        return (<Icon icon={service.icon} width='50' height='50' color='#E36414'/>)
+        return (
+          <Icon icon={service.icon} width="50" height="50" color="#E36414" />
+        );
       })}
+      <Footer />
     </section>
   );
 }

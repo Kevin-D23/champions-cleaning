@@ -1,5 +1,6 @@
 .HomePageContainer {
   background: #f8f9fa;
+  overflow-x: hidden;
 }
 
 .Popup {
@@ -45,4 +46,78 @@
   height: 1.5rem;
   border-radius: 10px;
   width: 0.188rem;
+}
+
+.HomeImage {
+  position: absolute;
+}
+
+.Back {
+  position: absolute;
+  bottom: 0;
+}
+
+.Front {
+  position: absolute;
+  bottom: -1.5rem;
+}
+
+.CallForm {
+  height: 31rem;
+  width: 32.5rem;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -5rem;
+  left: 17vw;
+}
+
+.CallForm h1 {
+  color: var(--accent-500);
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 26.5rem;
+  margin-bottom: .25rem;
+}
+
+.CallForm h2 {
+  font-size: 1rem;
+  color: black;
+  width: 26.5rem;
+  font-weight: 400;
+  margin-bottom: 2.75rem;
+}
+
+.CallForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.CallForm input,
+.CallForm select {
+  padding: 1.125rem 1.375rem;
+  width: 26.5rem;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  -o-appearance: none;
+  -ms-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: 400;
+  font-size: .75rem;
+  color: rgba(33,37,41, .7);
+}
+
+.CallForm input[type="submit"] {
+  width: 10.5rem;
+  font-weight: 700;
+  color: white;
+  font-size: .75rem;
+  background-color: var(--accent-300);
 }
