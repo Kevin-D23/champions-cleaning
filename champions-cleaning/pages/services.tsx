@@ -98,11 +98,45 @@ export default function Services() {
   return (
     <section className={styles.ServicesPageContainer}>
       <Navbar />
-      {services.map((service) => {
-        return (
-          <Icon icon={service.icon} width="50" height="50" color="#E36414" />
-        );
-      })}
+      <div className={styles.PageNameContainer}>
+        <h2>
+          <span className={styles.HomeBtn}>
+            <a href="/">HOME</a>
+          </span>{" "}
+          <span style={{ opacity: 0.7 }}>
+            <span className={styles.GtSign}>&gt;</span> SERVICES
+          </span>
+        </h2>
+        <h1>SERVICES</h1>
+      </div>
+      <div className={styles.DescriptionContainer}>
+        <p>
+          Get premium and reliable services for facilities with a 100%
+          satisfaction guaranteed! Here we offer a multitude of services ranging
+          from carpet or upholstery to window cleaning! For questions regarding
+          our provided services, please do not hesitate to give us a call!
+        </p>
+        <p>
+          There's much we have to offer. So, Take your time, look around, and
+          learn all there is to know about us.
+        </p>
+      </div>
+      <div className={styles.ServicesContainer}>
+        {services.map((service) => {
+          return (
+            <div className={styles.Service}>
+              <Icon
+                icon={service.icon}
+                width="50"
+                height="50"
+                color="#E36414"
+              />
+              <h1>{service.name}</h1>
+              <p>{service.description}</p>
+            </div>
+          );
+        })}
+      </div>
       <Footer />
     </section>
   );

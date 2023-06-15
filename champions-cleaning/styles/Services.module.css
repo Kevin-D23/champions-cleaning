@@ -1,0 +1,72 @@
+.ServicesPageContainer {
+    background-color: #F8F9FA;
+}
+
+.PageNameContainer {
+  height: 12.75rem;
+  background-color: var(--accent-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.PageNameContainer h2 {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: white;
+}
+
+.HomeBtn {
+  font-weight: 600;
+}
+
+.GtSign {
+  position: relative;
+  bottom: 1px;
+}
+
+.PageNameContainer h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.DescriptionContainer {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  color: #444444;
+  font-size: 0.875rem;
+  padding: 0 17rem;
+}
+
+.ServicesContainer {
+  padding: 0 16rem;
+  gap: 1.563rem;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Service {
+  width: 25rem;
+  height: 26.563rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 0 4rem;
+  background-color: white;
+}
+
+.Service h1 {
+    color: var(--accent-500)
+}
+
+
