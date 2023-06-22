@@ -1,5 +1,5 @@
 .ServicesPageContainer {
-    background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
 
 .PageNameContainer {
@@ -41,16 +41,15 @@
   gap: 1rem;
   color: #444444;
   font-size: 0.875rem;
-  padding: 0 17rem;
+  padding: 0 16rem;
 }
 
 .ServicesContainer {
   padding: 0 16rem;
   gap: 1.563rem;
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  margin-bottom: 6rem;
 }
 
 .Service {
@@ -63,10 +62,23 @@
   gap: 2.5rem;
   padding: 0 4rem;
   background-color: white;
+  z-index: 1;
 }
 
 .Service h1 {
-    color: var(--accent-500)
+  color: var(--accent-500);
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
+.Service p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #777777;
+  text-align: center;
+}
 
+.Background {
+  top: 12rem;
+  position: absolute;
+}

@@ -1,4 +1,6 @@
 .NavbarContainer {
+    position: fixed;
+    width: 100vw;
     background-color: white;
     display: flex;
     height: 5.25rem;
@@ -7,6 +9,7 @@
     padding: 0 8rem;
     color:#444444;
     font-weight: 600;
+    z-index: 10;
 }
 
 .NavbarButtons {

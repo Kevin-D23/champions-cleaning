@@ -138,6 +138,20 @@ export default function Services() {
         })}
       </div>
       <Footer />
+      <svg
+        className={styles.Background}
+        xmlns="http://www.w3.org/2000/svg"
+        width="auto"
+        height="auto"
+        viewBox="0 0 1920 888"
+        fill="none"
+      >
+        <path
+          d="M-22 0H1920V632C1147.53 983.003 723.127 962.932 -22 632V0Z"
+          fill="#777777"
+          fill-opacity="0.05"
+        />
+      </svg>
     </section>
   );
 }
