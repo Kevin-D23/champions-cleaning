@@ -97,7 +97,7 @@ export default function Services() {
   ];
   return (
     <section className={styles.ServicesPageContainer}>
-      <Navbar />
+      <Navbar style={{}}/>
       <div className={styles.PageNameContainer}>
         <h2>
           <span className={styles.HomeBtn}>

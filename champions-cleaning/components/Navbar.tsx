@@ -3,7 +3,7 @@ import styles from "../styles/Navbar.module.css";
 import { useRouter } from "next/router";
 import { Icon } from "@iconify/react";
 
-export default function Navbar() {
+export default function Navbar({style}: any ) {
   const {
     asPath, // the value: "/question/how-do-you-get-the-current-url-in-nextjs/"
     pathname, // the value: "/question/[slug]"
@@ -11,7 +11,7 @@ export default function Navbar() {
 
   console.log(pathname);
   return (
-    <nav className={styles.NavbarContainer}>
+    <nav className={styles.NavbarContainer} style={style}>
       <Logo />
       <ul className={styles.NavbarButtons}>
         <li style={pathname === "/" ? { color: "var(--accent-200)" } : {}}>
@@ -33,7 +33,7 @@ export default function Navbar() {
           <a href="/gallery">Gallery</a>
         </li>
         <li className={styles.CallButton}>
-          <a href="tel:5309667141"> 
+          <a > 
             <Icon
               icon="tabler:phone-call"
               color="#ff9500"

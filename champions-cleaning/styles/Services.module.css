@@ -3,6 +3,8 @@
 }
 
 .PageNameContainer {
+  position: relative;
+  top:5.25rem;
   height: 12.75rem;
   background-color: var(--accent-500);
   display: flex;
@@ -34,6 +36,8 @@
 }
 
 .DescriptionContainer {
+  position: relative;
+  margin-top: 5.25rem;
   height: 10rem;
   display: flex;
   flex-direction: column;
